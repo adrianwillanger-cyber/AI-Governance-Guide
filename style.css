@@ -19,6 +19,9 @@ h1 span{color:var(--muted)}
 .hero-description{color:var(--muted);max-width:48ch}
 .hero-actions{display:flex;align-items:center;flex-wrap:wrap;gap:var(--s3) var(--s6);margin-top:var(--s8)}
 .purchase-note{font-size:var(--text-xs);color:var(--muted);margin-top:var(--s3)}
+.free-checklist{margin-top:var(--s6)}
+.button.outline{background:transparent;color:var(--ink);border-color:var(--line)}
+.button.outline:hover{background:var(--surface);filter:none}
 .audience-note{display:flex;align-items:center;gap:var(--s4);margin-top:var(--s10);font-size:var(--text-xs);color:var(--muted);line-height:1.5}
 .rule{width:40px;height:2px;background:var(--gold)}
 .cover-stage{background:var(--stage);padding:var(--s10) var(--s10) var(--s6);position:relative}

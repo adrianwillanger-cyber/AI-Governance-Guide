@@ -21,6 +21,8 @@ If you use the separately supplied single-file version, rename it to `index.html
 - Purchase: https://adrianwill.gumroad.com/l/pxelre
 - Purchase links and YouTube links open in a new tab.
 - No full paid PDFs are included in this public website.
+- The free, one-page AI Policy Readiness Checklist is included at `assets/AI-Policy-Readiness-Checklist.pdf`. The hero's **Download the Free Checklist** button links to the public GitHub Pages copy. No email address is collected.
+- On the live GitHub Pages site, the same-origin `download` link requests a PDF download. Browsers that do not honor the download attribute can open the PDF in a new tab instead. If moving this site to another repository or domain, update this absolute link.
 
 ## Before promoting the live page
 
