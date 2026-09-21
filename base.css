@@ -1,0 +1,14 @@
+*,:before,:after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:2rem}
+body,h1,h2,h3,p,figure{margin:0}
+body{-webkit-font-smoothing:antialiased}
+button,a,input,summary{-webkit-tap-highlight-color:transparent}
+button{font:inherit;cursor:pointer}
+img,svg{display:block;max-width:100%}
+img{height:auto}
+a{color:inherit}
+button,a,summary{touch-action:manipulation}
+:focus-visible{outline:3px solid var(--focus);outline-offset:5px}
+.skip-link{position:absolute;z-index:20;left:1rem;top:-6rem;background:var(--ink);color:var(--paper);padding:1rem}
+.skip-link:focus{top:1rem}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
