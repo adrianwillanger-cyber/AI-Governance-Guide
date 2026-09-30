@@ -21,13 +21,13 @@ If you use the separately supplied single-file version, rename it to `index.html
 - Purchase: https://adrianwill.gumroad.com/l/pxelre
 - Purchase links and YouTube links open in a new tab.
 - No full paid PDFs are included in this public website.
-- The free, one-page AI Policy Readiness Checklist is included at `assets/AI-Policy-Readiness-Checklist.pdf`. The hero's **Download the Free Checklist** button links to the public GitHub Pages copy. No email address is collected.
-- On the live GitHub Pages site, the same-origin `download` link requests a PDF download. Browsers that do not honor the download attribute can open the PDF in a new tab instead. If moving this site to another repository or domain, update this absolute link.
+- The free, one-page AI Policy Readiness Checklist is included at `assets/AI-Policy-Readiness-Checklist.pdf`. The hero's **View the Free Checklist** button opens the public GitHub Pages copy in a new tab. No email address is collected.
+- The checklist is intentionally a preview link, not a forced download. If moving this site to another repository or domain, update this absolute link.
 
 ## Before promoting the live page
 
 - Confirm the current price, checkout details and product claims against your Gumroad listing.
-- Once your GitHub Pages URL or custom domain is known, add a canonical URL, an `og:url` tag, and change `og:image` to the absolute URL of a publicly hosted cover image. Relative or embedded images are not reliable for social preview crawlers.
+- The canonical URL, `og:url`, and absolute `og:image` reference the public GitHub Pages domain. Update all three if the domain changes.
 - If deploying the single-file version and wanting a social preview image, also upload the cover PNG separately and set `og:image` to its absolute HTTPS address.
 - Test the purchase link, YouTube link, mobile layout, theme toggle and expandable questions on the live domain.
 - The page uses external Fontshare fonts, with fallback fonts if unavailable. The page itself has no analytics, forms, embedded third-party players, cookies or local storage.
@@ -39,3 +39,11 @@ If you use the separately supplied single-file version, rename it to `index.html
 Update page text and destination links in `index.html`. Colors, responsive layouts and typography are in `style.css`; the theme toggle is in `app.js`. Change every occurrence of `$39` when updating the displayed price.
 
 The light/dark mode follows the visitor’s operating-system preference initially. The manual selection lasts for the current page view and is not saved on their device.
+
+## September 30 positioning update
+
+The page now leads with “Do the groundwork first” and “Bring a better-prepared draft to legal review.” It explains preparation, ownership, policy drafting, and tailored review without promising legal-fee savings or replacing counsel.
+
+Version-dependent guide page counts were removed from current-offer copy until Gumroad delivery is reconciled. The original video transcript remains accurate to its narration and is labeled as the launch introduction.
+
+Do not advertise the $12 AI in Moderation offer or state that it is included in the $39 bundle until the standalone listing and bundle download package are confirmed. No paid product PDFs belong in this public repository.
